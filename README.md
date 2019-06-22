@@ -60,7 +60,7 @@ Depending on your data requirements you may want to tweak the QR code output. Th
 
 | Property | Type | Description |
 |----|----|----|
-| `version` | int | A value between 1 and 40. See http://www.qrcode.com/en/about/version.html for details. |
+| `version` | int | A value between 1 and 40.Sets maximum data capicity, see http://www.qrcode.com/en/about/version.html for more details. |
 | `errorCorrectionLevel` | int | A value defined on `QrErrorCorrectLevel`. e.g.: `QrErrorCorrectLevel.L`. |
 | `size` | double | The (square) size of the image. If not given, will auto size using shortest size constraint. |
 | `padding` | EdgeInsets | Padding surrounding the QR code data |
